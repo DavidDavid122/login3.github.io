@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    background: rgb(61, 34, 108);
+    background: radial-gradient(circle,rgba(61, 34, 108, 1) 0%, rgba(101, 9, 121, 1)
+    35%, rgba(50, 226, 244, 1) 100%);
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conts2 {
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, 40%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#title {
+    margin-top: 25px;
+    transform: translateX(-20%);
+    color: rgb(238, 238, 238);
+}
+#title1 {
+    margin-top: 25px;
+    transform: translateX(-20%);
+    color: rgb(255, 255, 255);
+}
+input[type="text"] {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px 15px;
+}
+input[type="password"] {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px 15px;
+}
+.submit {
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px 15px;
+}
+.text2 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+.text3 {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.text4 {
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.text3:hover {
+    color: red;
+    font-size: 20px;
+}
+.text4:hover {
+    color: green;
+    font-size: 20px;
+}
+input[type="checkbox"] {
+    width: 30px;
+    margin-top: 10px;
+    transform: translateX(-10%);
+    cursor: pointer;
+}
+.submit:hover {
+    color: white;
+    background: #000;
+}
+a {
+    text-decoration: none;
+}
